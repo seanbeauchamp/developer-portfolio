@@ -399,12 +399,26 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
   }
 
   .bio {
     width: 18.3rem;
+  }
+
+  .icon {
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 10px;
+    margin: 5px;
   }
 
   .project-container {
