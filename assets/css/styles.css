@@ -74,7 +74,6 @@ nav a {
 
 nav a:hover {
   color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
 }
 
 nav ul {
@@ -105,8 +104,10 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  margin: 1.5rem 0;
+  height: 35rem;
+  width: 35rem;
+  border-radius: 50%;
 }
 
 .bio {
@@ -345,18 +346,18 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+    margin-top: -1rem;
     flex-direction: column;
     gap: 0;
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 27.5rem;
+    width: 27.5rem;
   }
 
   .bio {
-    margin-top: -7rem;
+    margin-top: -.5rem;
     width: 20.5rem;
   }
 
