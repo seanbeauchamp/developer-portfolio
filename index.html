@@ -12,13 +12,13 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
+      href="assets/icons/logo-apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
+      href="assets/icons/logo-favicon32x32.png"
     />
 
     <!-- Animate CSS CDN -->
@@ -52,10 +52,10 @@
         loading="lazy"
         class="hero-img"
         />
-      <div class="bio animate__animated animate__shakeX">
+      <div class="bio animate__animated animate__fadeIn">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          I am an experienced programmer with full stack, database administration and game development experience. I
+          I am an experienced programmer with full stack, database administration and app/game development experience. I
           am always looking for new opportunities to develop and expand my skill set in a professional environment.
         </p>
       </div>
@@ -65,15 +65,16 @@
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        In my years of experience coding I have 
+        In my years of experience coding I have worked in several different environments and frameworks. This has included various full web stacks making use of 
+        MongoDB/SQL Server/MySQL for Database Administration, Express/Django for web server frameworks, React for single-page-application programming, and Node.JS/Python for
+        backend coding.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
+        In addition to my web development experience, I have also designed applications for a local environment. This has included Python Scripts, Visual .NET GUI-based applications,
+        and games/interactive experiences written in C# via Unity and Javascript via PIXI.JS.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+        Take a look below for a sample of some of my previous work, or feel free to reach out to me if you have any questions or would like to see more.
       </p>
     </section>
 
@@ -82,6 +83,12 @@
       <h2 class="skill-header">My Top Skills</h2>
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-python.svg"
+            alt="HTML5"
+            loading="lazy"
+            class="icon icon-card"
+          />
           <img
             src="assets/icons/icons8-html-5.svg"
             alt="HTML5"
@@ -104,7 +111,13 @@
 
         <div class="second-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-bootstrap.svg"
+            src="assets/icons/icons8-unity.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-mongodb.svg"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -131,48 +144,44 @@
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
+            src="assets/images/citisketch-screencap.PNG"
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
             />
-          <h3 class="project-title">Expense Tracker</h3>
+          <h3 class="project-title">Citisketch</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            Using PIXI.JS, we created real city environments in which citizens could be represented going through simulated days, 
+            allowing for visual representation of current trends.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it out</a>
+          <a href="https://blackarcs.org/" target="_blank" class="project-link">Learn More</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/netflixClone.png"
+            src="assets/images/ffpuzzle.png"
             alt="netflix-clone"
             loading="lazy"
             class="project-pic"
             />
-          <h3 class="project-title">Netflix-Clone</h3>
+          <h3 class="project-title">Unity Projects</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            These games were created using C# scripting within the Unity engine, and are available for free on GameJolt.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it out</a>
+          <a href="https://gamejolt.com/@surfeitmechanism/games" target="_blank" class="project-link">Check it out!</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/greenyEarth.png"
+            src="assets/images/dungeonmapper.png"
             alt="greeny-earth"
             loading="lazy"
             class="project-pic"
             />
-          <h3 class="project-title">Greeny Earth</h3>
+          <h3 class="project-title">Grid-Based Mapping Tool</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            This single page application was created in React and is hosted on Github Pages. It allows users to design multi-level
+            maps with detailed events and items.
           </p>
-          <a href="#" target="_blank" class="project_link">Check it Out!</a>
+          <a href="https://seanbeauchamp.github.io/Dungeon-Mapper/" target="_blank" class="project_link">Check it Out!</a>
         </div>
       </div>
     </section>
@@ -230,29 +239,15 @@
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">
-      <a href="#" target="_blank"
+      <a href="https://www.linkedin.com/in/sean-beauchamp-b44ab4274/" target="_blank"
         ><img
-          src="assets/icons/icons8-twitter-circled.gif"
-          alt="Twitter"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-instagram.gif"
-          alt="Instagram"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
+          src="assets/icons/icons8-linkedin-48.png"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      <a href="https://github.com/seanbeauchamp" target="_blank"
+        ><img src="assets/icons/icons8-github-48.png" alt="Github" class="socicon"
       /></a>
     </div>
 
@@ -260,14 +255,14 @@
     <footer>
       <p class="copy">&copy; Copyright 2023</p>
       <p class="copy">
-        Built by Sean Beauchamp</p>
+        Built by Sean Beauchamp, Hosted by Amazon</p>
       </p>
     </footer>
 
     <!-- Scroll-Up Icon for lower right corner -->
     <i class="scroll-up" id="scroll-up">
       <img
-        src="assets/icons/icons8-upward-arrow.gif"
+        src="assets/icons/icons8-upward-arrow-48.png"
         class="socicon up-arrow"
         alt="scroll-up"
         />

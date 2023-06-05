@@ -219,6 +219,11 @@ nav ul li {
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  min-height: 325px;
+}
+
+.project-card img {
+  height: 125px;
 }
 
 .contact {
