@@ -103,10 +103,10 @@ nav ul li {
   margin: auto;
 }
 
-.hero img {
+.hero-img {
   margin: 1.5rem 0;
-  height: 35rem;
-  width: 35rem;
+  height: 30rem;
+  width: 30rem;
   border-radius: 50%;
 }
 
@@ -258,6 +258,7 @@ nav ul li {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 5px;
   border-radius: 5px;
   border: none;
   border: 2px outset var(--primary-color);
@@ -356,7 +357,7 @@ footer {
     gap: 0;
   }
 
-  .hero img {
+  .hero-img {
     height: 27.5rem;
     width: 27.5rem;
   }
@@ -398,7 +399,7 @@ footer {
 }
 
 @media screen and (max-width: 420px) {
-  .hero img {
+  .hero-img {
     margin: 2rem;
     height: 20rem;
     width: 20rem;
